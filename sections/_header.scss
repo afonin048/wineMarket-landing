@@ -1,0 +1,119 @@
+$hoverLinkColor: #99862A;
+
+.header{
+    background: url(../images/wine__bckgrnd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &__contacts{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0 20px;
+
+        &_adres{
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 150%;
+            color: #FFFFFF;
+            transition: all 0.3s linear;
+            &:hover{
+                color: $hoverLinkColor;
+                font-size: 120%;
+            }
+        }
+        &_telph{
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 150%;
+            color: #FFFFFF;
+            transition: all 0.3s linear;
+            &:hover{
+                color: $hoverLinkColor;
+                font-size: 120%;
+            }
+        }
+    }
+
+    &__nav{
+        border-top: 1px solid #FFFFFF;
+        border-bottom: 1px solid #FFFFFF;
+        margin: 0 0 583px;
+        
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+        &_link{
+            font-size: 14px;
+            line-height: 150%;
+            color: #FFFFFF;
+            display: block;
+            width: 25%;
+            text-align: center;
+            padding: 11px 0 15px;
+            border-left: 1px solid #FFFFFF;
+            transition: all 0.3s linear;
+            &:hover{
+                color: $hoverLinkColor;
+                font-size: 120%;
+            }
+            
+        }
+        &_link:first-of-type{
+            border-left: none;
+        }
+        
+    }
+    &__button{
+        margin: 0 0 150px 347px;
+        &_left{
+            display: inline-block;
+            padding: 15px 30px;
+            width: 203px;
+            height: 50px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background: #99862A;
+            border: none;
+            margin-right: 30px;
+            cursor: pointer;
+            transition: all 0.3s linear;
+            &:hover{
+                color: $hoverLinkColor;
+                background: #FFFFFF;
+            }
+        }
+        &_right{
+            display: inline-block;
+            padding: 15px 30px;
+            width: 182px;
+            height: 50px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background: #99862A;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s linear;
+            &:hover{
+                color: $hoverLinkColor;
+                background: #FFFFFF;
+            }
+        }
+    }
+
+}

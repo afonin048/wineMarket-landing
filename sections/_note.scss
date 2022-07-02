@@ -1,0 +1,113 @@
+.note{
+    background: #282828;
+    width: 100%;
+    position: relative;
+    padding: 129px 0 100px;
+    &-box{
+        border: 3px solid #C4C4C4;
+        position: relative;
+    }
+    &__text{
+        width: 539px;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 65px auto 0;
+        &::before{
+            content: '';
+                display: block;
+                border-top: 1px solid #FFFFFF;
+                width: 118px;
+                margin: 0 auto 40px;
+        }
+    }
+    &__form-name{
+        display: inline-block;
+        width: 255px;
+        background: #282828;
+       margin: 0px 25px 40px 0;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 150%;
+        color: hsl(0, 0%, 100%);
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #FFFFFF;
+    }
+    &__form-tel{
+        display: inline-block;
+        width: 255px; 
+        background: #282828; 
+        
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 150%;
+        color: #FFFFFF;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #FFFFFF;
+
+    }
+    &__form-adres{
+      display: block;
+      width: 540px;
+      background: #282828;
+     
+      font-weight: 500;
+        font-size: 13px;
+        line-height: 150%;
+        color: #FFFFFF;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #FFFFFF;
+    }
+    &__form-btn{
+        width: 540px;
+        margin: 50px 0 0;
+        padding: 15px 208px;
+        border: 1px solid #FFFFFF;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: #282828;
+        cursor: pointer;
+        transition: all 0.3s linear;
+        &:hover{
+            color:#282828 ;
+            background: #FFFFFF;
+        }
+    }
+}
+form{
+    width: 540px;
+    margin: 81px auto 80px;
+}
+.grape{
+    position: absolute;
+    left: -2.7027027%;
+    top: -12.8252788%;
+}
+.barel{
+    position: absolute;
+    left: 81.3513514%;
+    top: -12.0817844%;  
+}
+.note-title{
+    width: 490px;
+    padding: 10px 50px;
+    position: absolute;
+    left: 27.9279279%;
+    top: -7.24907063%; 
+    background: #282828;
+    &__text{
+        font-size: 36px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}

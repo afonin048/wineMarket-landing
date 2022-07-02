@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto
+}
+
+@import "./sections/_header.scss";
+@import "./sections/about";
+@import "./sections/colection";
+@import "./sections/note";
+@import "./sections/footer";

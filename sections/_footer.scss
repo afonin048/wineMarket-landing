@@ -1,0 +1,89 @@
+.footer{
+    background: #998431;
+    width: 100%;
+    padding: 50px 0;
+    &__nav{
+        padding: 19px 0 20px 94px;
+        border-top: 1px solid #FFFFFF;
+        &_item{
+            font-size: 14px;
+            line-height: 150%;
+            text-align: center;
+            color: #FFFFFF;
+            transition: all 0.3s linear;
+            &:hover{
+                color: #000;
+                font-size: 110%;
+                
+            }
+        }
+        &_item + &_item{
+            margin-left: 56px;
+        }
+
+    }
+    &__contacts{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 94px 0 94px;
+        border-top:1px solid #FFFFFF ;
+        border-bottom:1px solid #FFFFFF ;
+        &_item{
+            
+            color: #FFFFFF;
+            display: block;
+            padding: 19px 0 20px;
+            transition: all 0.3s linear;
+            &:hover{
+                color: #000;
+                font-size: 110%;
+                cursor: pointer; 
+                
+            }
+
+        }
+        &_item + &_item{
+            padding-left: 60px;
+            border-left: 1px solid #FFFFFF;
+        }
+    }
+}
+
+.logo-pictures{
+    width: 146px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: unset;
+    font-size: unset;
+    line-height: unset;
+    text-transform: unset;
+}
+.footer_item__text{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.youtube{
+    width: 22px;
+    transition: all 0.3s linear;
+    &:hover{
+        transform: scale(1.8);
+    }
+}
+.vk{
+    width: 24px;
+    transition: all 0.3s linear;
+    &:hover{
+        transform: scale(1.8);
+    }
+}
+.facebook{
+    width: 10px;
+    transition: all 0.3s linear;
+    &:hover{
+        transform: scale(1.8);
+    }
+}

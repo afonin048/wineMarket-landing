@@ -1,0 +1,105 @@
+.colection{
+    
+    width: 100%;
+    background: #E6E3C4;
+    padding: 80px 0;
+    &__describe{
+        
+        &_news{
+            font-size: 16px;
+            line-height: 150%;
+            
+        }
+        &_title{
+            font-size: 36px;
+            line-height: 150%;
+            color: #282828;
+            width: 298px;
+            margin-top: 30px;
+            &::after{
+                content: '';
+                display: block;
+                border-bottom: 1px solid #282828;
+                width: 160px;
+                margin: 30px 0 0;
+            }
+        }
+        &_text{
+            font-size: 14px;
+            line-height: 150%;
+            color: #282828;
+            margin: 30px 0;
+            width: 451px;
+        }
+        &_table{
+            display: flex;
+            flex-wrap: wrap;
+            width: 445px;
+            &-year{
+                font-size: 14px;
+                line-height: 150%;
+                color: #282828;
+                padding: 26px 24px 26px 20px;
+                border-right: 1px solid #282828;
+                border-top:1px solid #282828 ;
+                &:first-of-type{
+                    border-top:none  
+                }
+            }
+            &-about{
+                border-top:1px solid #282828 ;
+                padding: 10px 30px 15px 30px;
+                &:first-of-type{
+                    border-top:none  
+                }
+            }
+        }
+        &_btn{
+            width: 254px;
+            padding: 15px 30px;
+            background: #998431;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            border: none; 
+            cursor: pointer;
+            transition: all 0.3s linear;
+            &:hover{
+                color: $hoverLinkColor;
+                background: #FFFFFF;
+            }
+        }
+    }
+    &__pictures{
+        width: 540px;
+        &_top{
+            margin-bottom: 38px;
+        }
+        &_bottom-left{
+            margin-right: 25px;
+        }
+    }
+}
+.box{
+    display: flex;
+    width: 1110px;
+    justify-content: space-between;
+    padding: 60px 0 ;
+    border-top: 1px solid #998431;
+    border-bottom: 1px solid #998431;
+}
+.table-wine__name{
+    font-size: 18px;
+    line-height: 150%;
+    color: #282828;
+    margin-bottom: 5px;
+}
+.table-wine__description{
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+}
